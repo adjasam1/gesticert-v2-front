@@ -1,0 +1,62 @@
+footer {
+  background-color: #302D5E;
+  height: 30px;
+}
+
+a, span {
+  color: white;
+  font-size: 14px;
+  //float: right;
+}
+
+a span {
+  line-height: 15px;
+}
+
+i {
+  font-size: 12px;
+}
+
+#linkul {
+  text-align: center;
+  margin-top: 4px;
+}
+
+.linkli {
+  margin-right: 10%;
+}
+
+#appli {
+  float: right;
+}
+
+b {
+  color: #EEC216;
+}
+
+li {
+  display: inline;
+}
+
+/*li a {
+  padding-left: 10%
+}*/
+
+a:hover {
+  color: #EEC216;
+}
+
+@media (max-width: 440px) {
+footer {
+  height: 80px;
+}
+
+  li {
+    display: block;
+    text-align: left;
+  }
+
+  #appli {
+    margin-top: 25px;
+  }
+}

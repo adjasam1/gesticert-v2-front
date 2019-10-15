@@ -1,0 +1,118 @@
+.header {
+  height: 70px;
+  background: linear-gradient(to right, #302D5E, #302D5E 50%, #EEC216, #EEC216 90%);
+  border-bottom: 1px solid;
+  border-image: linear-gradient(to right, #EEC216, #003DA5) 1;
+}
+
+.logo-gest {
+  height: 60px;
+  margin: 5px 1% 5px 5px;
+}
+
+.logo-post {
+  float: right;
+}
+
+#post1 {
+  display: flex;
+  height: 40px;
+  margin: 15px 10px 15px 0;
+}
+
+#post2 {
+  display: none;
+  height: 50px;
+  margin: 10px 10px 10px 0;
+}
+
+b, small {
+  padding-top: 15px;
+}
+
+b {
+  font-size: 20px;
+  color: #EEC216;
+  margin-right: 5%;
+}
+
+#initnp {
+  color: white;
+  font-size: 18px;
+}
+
+small {
+  font-size: 16px;
+  color: white;
+}
+
+@media (max-width: 800px) {
+  #post1 {
+    display: none;
+  }
+
+  #post2 {
+    display: flex;
+  }
+
+  small {
+    display: none;
+  }
+}
+
+.burger {
+  width: 42px;
+  height: 24px;
+  background-color: #000;
+  cursor: pointer;
+}
+
+
+
+
+
+
+/*##############################################
+.menu-icon{
+  position: relative; 
+  width: 54px;
+  height: 54px; 
+
+  transition: transform 0.5s;
+}
+.menu-icon span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%); 
+
+  display: block;
+  width: 22px;
+  height: 2px;
+
+  background-color: #000;
+
+}
+
+.menu-icon span::before, .menu-icon span::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateY(-6px);
+
+  display: block;
+  width: 22px;
+  height: 2px;
+
+  background-color: #000;
+
+  transition: transform 0.5s;
+}
+.menu-icon span::after {
+  transform: translateY(6px); 
+}
+
+.menu-icon.is-opened span { background: transparent; }
+.menu-icon.is-opened span::before { transform: translateY(0) rotate(45deg); }
+.menu-icon.is-opened span::after { transform: translateY(0) rotate(-45deg); }*/

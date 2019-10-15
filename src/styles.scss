@@ -1,0 +1,23 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+body {
+  width: 100%;
+  font-family: 'Montserrat', 'Barlow', sans-serif;
+}
+
+/* BOUTON */
+button {
+  padding: 2px 5px !important;
+  color: #302D5E !important;
+  font-size: 16px !important;
+  font-weight: bold !important;
+  background-color: #FFF !important;
+  border: 1px solid #302D5E !important;
+  text-decoration: none !important;
+  border-radius: 4px !important;
+}
+
+button:hover {
+  color: #EEC216 !important;
+  background-color: #302D5E !important;
+}
